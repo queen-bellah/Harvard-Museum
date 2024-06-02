@@ -17,3 +17,42 @@ body {
 .artwork img {
     width: 100%;
 }
+
+#art{
+   height: 800px;
+   object-fit: cover;
+   width: 100%;
+   /* position:absolute; */
+
+}
+
+button{
+    border-radius: 30px;
+    height: 40px;
+    width: 150px;
+}
+
+input{
+    border-radius: 30px;
+    height: 40px;
+    width: 200px; 
+}
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    gap: 250px;
+    /* position: relative; */
+    display: flex;
+    text-decoration-color: white;
+    background-image: url(Images/harvard_art.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: initial;
+    color: white;
+}
+
+.navtext{
+    color: white;
+}
